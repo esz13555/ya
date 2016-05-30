@@ -629,6 +629,7 @@ hr.bold {
     position:relative;
     z-index:120;
 	background-color: #fff;
+
 }
 
 
@@ -639,6 +640,7 @@ hr.bold {
 	display:block;
     position:relative;
     z-index:120;
+    height: 2000px;
 }
 .home-section.nopadding-bot {
     padding-bottom: 0;
@@ -2102,4 +2104,11 @@ a.btn:focus{
 
 .well.well-trans a{
 	color:#fff;
+}
+
+#service1{
+	margin: 85px;
+	height: 1700px;
+}{
+	height: 2800px;
 }
