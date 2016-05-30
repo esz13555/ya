@@ -624,7 +624,7 @@ hr.bold {
 
 .home-section {
     padding-top: 50px;
-    max-resolution: 76px;px 0px 0px 0px;
+    margin: 76px 0px 0px 0px;
 	display:block;
     position:relative;
     z-index:120;
