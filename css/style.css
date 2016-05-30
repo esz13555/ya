@@ -850,9 +850,10 @@ form.lead label,form.lead input {
 	background-color: rgba(0,0,0,.3);
   -webkit-box-shadow: none;
           box-shadow: none;
-          margin: 0 0 0 10px;
+          margin: 0 0 0 0px;
 	border: none;
 	color:#fff;
+	
 
 
 } }
