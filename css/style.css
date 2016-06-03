@@ -9,7 +9,7 @@
 /* ==== Google font ==== */
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Roboto:400,500,700,900');
 /* --- pe-icon-7-stroke --- */
-
+font-family: 'Roboto', sans-serif;
 
 body {
     width: 100%;
@@ -1227,6 +1227,7 @@ Testimonial
   padding-left: 0;
   width: 100%;
   height: auto;
+  
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -1235,6 +1236,7 @@ Testimonial
   height: auto;
   margin-left:0;
   padding-left: 0;
+
 }
 
 .carousel-control {
