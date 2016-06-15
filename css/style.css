@@ -627,8 +627,10 @@ hr.bold {
     margin: 76px 0px 0px 0px;
 	display:block;
     position:relative;
+    height: auto;
     z-index:120;
 	background-color: #fff;
+	  height: auto;
 
 }
 
@@ -640,7 +642,7 @@ hr.bold {
 	display:block;
     position:relative;
     z-index:120;
-    height: 2000px;
+    height: 1000px;
 }
 .home-section.nopadding-bot {
     padding-bottom: 0;
@@ -731,9 +733,18 @@ hr.bold {
 }
 
 .intro-content {
-	background: url(../img/dummy/13340592_1150145645035646_277965078_o.jpg) no-repeat top center;
-	padding:200px 0px  200px 60px;
-	margin:80px  100px -145px;
+	padding-top: 400px;
+	padding-bottom: 25px;
+	
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	height:auto;
+	width: auto;
+
 
 }
 .intro-content.intro-nobg {
@@ -1000,7 +1011,7 @@ Elements
 	margin-bottom: 10px;
 }
 #service {
-	height: 1450px;
+	height: auto;
 }
 
 
@@ -1229,8 +1240,8 @@ Testimonial
 
 
 .carousel-inner > .item {
-  margin-left:220px;
-  padding-left: 0;
+  margin-left:125px;
+  padding-left: 100px;
   width: 100%;
   height: auto;
   
@@ -2042,6 +2053,7 @@ a.btn:focus{
 		float: none;
 		text-align: center;
 	}
+	
 
 }
 
@@ -2116,11 +2128,39 @@ a.btn:focus{
 
 #service1{
 	margin: 85px;
-	height: 1700px;
-}{
-	height: 2800px;
+	height: auto;
 }
 
 .etop{
 	margin-left:10%;"
+}
+/*Sections*/
+.mainsection{
+	padding-top: -200px;
+	padding-bottom: 25px;
+	background: url(../img/dummy/13340592_1150145645035646_277965078_o.jpg)  ;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	height:auto;
+	width: auto;
+
+}
+#spacer{
+	height:59px;
+	width: auto;
+}
+	
+.top_content{
+	position:relative;
+	padding-bottom: 100px;
+	margin-left: 10px;
+	}
+}
+#service1{
+	margin: 85px;
+	height: auto;
 }
