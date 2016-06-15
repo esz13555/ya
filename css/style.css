@@ -7,14 +7,14 @@
  
 
 /* ==== Google font ==== */
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Roboto:400,500,700,900');
-/* --- pe-icon-7-stroke --- */
-font-family: 'Roboto', sans-serif;
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+
 
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans Telugu', sans-serif;
 	font-weight: 300;
     color: #666;
     background-color: #ddd;
@@ -32,7 +32,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Sans Telugu', sans-serif;
   font-size: inherit;
   line-height: inherit;
 }
@@ -734,6 +734,7 @@ hr.bold {
 	background: url(../img/dummy/13340592_1150145645035646_277965078_o.jpg) no-repeat top center;
 	padding:200px 0px  200px 60px;
 	margin:80px  100px -145px;
+
 }
 .intro-content.intro-nobg {
 	background:#fff;
