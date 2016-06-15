@@ -732,8 +732,8 @@ hr.bold {
 
 .intro-content {
 	background: url(../img/dummy/13340592_1150145645035646_277965078_o.jpg) no-repeat top center;
-	padding:200px 0 60px;
-	height: 500px;
+	padding:200px 0px  200px 60px;
+	margin:80px  100px -145px;
 }
 .intro-content.intro-nobg {
 	background:#fff;
