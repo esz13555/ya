@@ -7,7 +7,8 @@
  
 
 /* ==== Google font ==== */
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+	
+body, table, p, div, span, form, input, textarea, select, pre, button { font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif; }
 
 
 
@@ -94,13 +95,15 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+{
     margin: 0 0 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Microsoft JhengHei';
     font-weight: 400;
-	color: #444;
+	color: #fff;
 	line-height: 1em;
 }
+
+
 
 h1.h-xlight,h2.h-xlight,h3.h-xlight ,h4.h-xlight ,h5.h-xlight ,h6.h-xlight  {
 	font-weight: 100;
@@ -120,6 +123,7 @@ h1.h-medium,h2.h-medium,h3.h-medium ,h4.h-medium ,h5.h-medium ,h6.h-medium  {
 
 h1.h-bold,h2.h-bold,h3.h-bold ,h4.h-bold ,h5.h-bold ,h6.h-bold  {
 	font-weight: 700;
+	color:#c5c6c7;
 }
 
 h1.h-ultra,h2.h-ultra,h3.h-ultra ,h4.h-ultra ,h5.h-ultra ,h6.h-ultra  {
@@ -174,7 +178,7 @@ p.ultra {
 }
 
 a {
-    color: #666;
+    color: #fff;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -309,7 +313,7 @@ Navigation
 }
 
 .navbar.navbar-custom.navbar-fixed-top  {
-	background: #fff;
+	background: #000;
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -336,7 +340,7 @@ Navigation
 .navbar-custom ul.nav li a {
 	font-size: 13px;
 	letter-spacing: 1px;
-    color: #666;
+    color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
 	background: transparent;
@@ -344,7 +348,7 @@ Navigation
 
 
 .navbar.navbar-custom.top-nav-collapse {
-	background: #fff;
+	background: #000;
 	
 }
 
@@ -356,7 +360,7 @@ Navigation
 	-webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #444;
+	color: #c5c6c7;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
@@ -624,13 +628,14 @@ hr.bold {
 
 .home-section {
     padding-top: 50px;
-    margin: 76px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 	display:block;
     position:relative;
     height: auto;
     z-index:120;
-	background-color: #fff;
+	background-color: #000;
 	  height: auto;
+	  color:#fff;
 
 }
 
@@ -2135,28 +2140,15 @@ a.btn:focus{
 	margin-left:10%;"
 }
 /*Sections*/
-.mainsection{
-	padding-top: -200px;
-	padding-bottom: 25px;
-	background: url(../img/dummy/13340592_1150145645035646_277965078_o.jpg)  ;
-	background-repeat:no-repeat;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	background-position:center;
-	height:auto;
-	width: auto;
 
-}
 #spacer{
-	height:59px;
+	height:70px;
 	width: auto;
 }
 	
 .top_content{
 	position:relative;
-	padding-bottom: 100px;
+	padding-bottom: 600px;
 	margin-left: 10px;
 	}
 }
@@ -2164,3 +2156,4 @@ a.btn:focus{
 	margin: 85px;
 	height: auto;
 }
+
