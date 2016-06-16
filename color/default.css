@@ -9,112 +9,112 @@ a:focus {
 }
 
 .circled {
-	background: #0095B3;
+	background: #F5A53B;
 }
 
 .con1 > div, .con2 > div, .con3 > div { 
-	background-color: #0095B3;
+	background-color:#F5A53B;
 }
 
 .scrollup:hover {
-	background:#0095B3;
+	background:#F5A53B;
 }
 
 
 /* service */
 
 .service-icon span {
-	color: #0095B3;
+	color: #F5A53B;
 }
 
 
 
 /* button */
 .btn-skin {
-  background-color: #0095B3;
-  border-color: #0095B3;
+  background-color: #F5A53B;
+  border-color: #F5A53B;
 }
 
 
 /* top */
 .top-area {
-	background: #0095B3;
+	background: #F5A53B;
 }
 
 /* menu */
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
-	color: #0095B3;
+	color: #F5A53B;
 }
 .navbar-custom.top-nav-collapse .nav li a:hover,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li.active a,.navbar-custom.top-nav-collapse .nav li.active a  {
-    color: #0095B3;
+    color: #F5A53B;
 }
 
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background-color: #0095B3;
+    background-color: #F5A53B;
 }
 
 
 .bg-skin {
-	background: #0095B3;
+	background: #F5A53B;
 }
 
 .highlight-color {
-	background-color: #0095B3;
+	background-color: #F5A53B;
 }
 .color {
-	color: #0095B3;
+	color: #F5A53B;
 }
 
 /* pricing box  */
 .pricing-content.featured h2,.pricing-content.featured .price-bottom {
-	background-color:#0095B3;
+	background-color:#F5A53B;
 }
 .pricing-content.featured h3 {
-	background:#0095B3;
+	background:#F5A53B;
 }
 
 
 
 /* team */
 .cbp-l-grid-team-name {
-    color: #0095B3;
+    color:#F5A53B;
 }
 
 .cbp-l-filters-button .cbp-filter-counter {
-	background-color: #0095B3;
+	background-color:#F5A53B;
 }
 
 .cbp-l-filters-alignLeft .cbp-filter-item-active {
     /* @editable properties */
-    background-color: #0095B3;
-    border:1px solid #0095B3;
+    background-color: #F5A53B;
+    border:1px solid #F5A53B;
 }
 
 .cbp-l-filters-dropdownWrap {
-    background: #0095B3;
+    background: #F5A53B;
 }
 .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
     /* @editable properties */
-    background-color: #0095B3;
-    border-color: #0095B3;
+    background-color: #F5A53B;
+    border-color:#F5A53B;
 }
 .cbp-l-caption-buttonLeft,
 .cbp-l-caption-buttonRight {
     /* @editable properties */
-    background-color: #0095B3;
+    background-color: #F5A53B;
 }
 
 .cbp-l-caption-buttonLeft:hover,
 .cbp-l-caption-buttonRight:hover {
     /* @editable properties */
-    background-color: #0095B3;
+    background-color: #F5A53B;
 }
 
 .form-control:focus {
-  border-color: #0095B3;
+  border-color: #F5A53B;
 }
