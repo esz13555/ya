@@ -8,8 +8,9 @@
 
 /* ==== Google font ==== */
 	
-body, table, p, div, span, form, input, textarea, select, pre, button { font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif; }
+body, table, p, div, span, form, input, textarea, select, pre, button { color:#fff; font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif; }
 ul li { list-style-type:none; }
+
 
 
 body {
@@ -329,6 +330,7 @@ Navigation
  	-webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    background-color: #000;
 }
 .navbar.navbar-custom.top-nav-collapse ul.nav.navbar-nav {
 	margin-top: 0;
@@ -2155,4 +2157,7 @@ a.btn:focus{
 	margin: 85px;
 	height: auto;
 }
-
+#footer {
+	background-color: 
+	color: #000;
+}
