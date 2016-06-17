@@ -7,10 +7,10 @@
     height: 580px;
     background-position: 50% 50%;
     background-size: 100% auto;
+    background-color: #000;
 }
 .mainsection1{
 	height: 500px;
-	height: 400px;
 	padding-bottom: 0px;
 	background: url(../img/dummy/11111.jpg)  ;
 	background-repeat:no-repeat;
@@ -21,7 +21,10 @@
 	background-position:center;
 	height:auto;
 	width: auto;
-
+background-color: #000;
+}
+#li{
+	color:#000;
 }
 
 #spacer{
