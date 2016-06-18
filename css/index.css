@@ -12,6 +12,21 @@
 .mainsection1{
 	height: 500px;
 	padding-bottom: 0px;
+	background: url(../img/dummy/22222.jpg)  ;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	height:auto;
+	width: auto;
+background-color: #000;
+}
+
+.mainsection2{
+	height: 500px;
+	padding-bottom: 0px;
 	background: url(../img/dummy/11111.jpg)  ;
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;

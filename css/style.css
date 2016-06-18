@@ -124,7 +124,7 @@ h1.h-medium,h2.h-medium,h3.h-medium ,h4.h-medium ,h5.h-medium ,h6.h-medium  {
 
 h1.h-bold,h2.h-bold,h3.h-bold ,h4.h-bold ,h5.h-bold ,h6.h-bold  {
 	font-weight: 700;
-	color:#c5c6c7;
+	color:#404040;
 }
 
 h1.h-ultra,h2.h-ultra,h3.h-ultra ,h4.h-ultra ,h5.h-ultra ,h6.h-ultra  {
@@ -628,6 +628,18 @@ hr.bold {
 ============================ */
 
 .home-section {
+    padding-top: 50px;
+    margin: 0px 0px 0px 0px;
+	display:block;
+    position:relative;
+    height: auto;
+    z-index:120;
+	background-color: #eaeaea;
+	  height: auto;
+	  color:#606060;
+
+}
+.home-section-index {
     padding-top: 50px;
     margin: 0px 0px 0px 0px;
 	display:block;
