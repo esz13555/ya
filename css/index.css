@@ -152,6 +152,18 @@ background-color: #000;
 	.mainsection{
 		background-size: 479px; height: 250px; 
 	}
+	.mainsection1{
+		background-size: 450px; height: 200px; 
+		color:#fff;
+		background-color: #fff;
+
+	}
+	.mainsection2{
+		background-size: 450px; height: 200px; 
+		color:#fff;
+		background-color: #fff;
+
+	}
 
 }
 @media only screen and (max-width: 360px) {
@@ -159,7 +171,18 @@ background-color: #000;
 		background-size: 360px; height: 200px; 
 
 	}
+	.mainsection1{
+		background-size: 330px; height: 200px; 
+		color:#fff;
+		background-color: #fff;
 
+	}
+	.mainsection2{
+		background-size: 330px; height: 200px; 
+	 	color:#fff;
+	 	background-color: #fff;
+	}
+}
 
 
 #secondsecp{
