@@ -101,7 +101,7 @@ background-color: #000;
 @media only screen and (max-width: 767px){
 	.top_content{
 	position:relative;
-	padding-bottom: 200px;
+	padding-bottom: 12.5em;
 	margin-left: 10px;
 	}
 	
