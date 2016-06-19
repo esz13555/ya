@@ -388,9 +388,7 @@ Navigation
 	background: #fefefe;
 }
 
-.navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
-	color: #fff;
-}
+
 
 .navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus  {
     -webkit-transition: background .3s ease-in-out;
@@ -2172,4 +2170,7 @@ a.btn:focus{
 #footer {
 	background-color: 
 	color: #000;
+}
+.navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
+	color: #fff;
 }
