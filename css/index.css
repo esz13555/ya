@@ -18,7 +18,7 @@
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
-	background-position:center;
+	background-position:center center;
 	height:auto;
 	width: auto;
 background-color: #000;
@@ -33,7 +33,7 @@ background-color: #000;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
-	background-position:center;
+	background-position:center center;
 	height:auto;
 	width: auto;
 background-color: #000;
@@ -155,7 +155,7 @@ background-color: #000;
 	.mainsection1{
 		background-size: 450px; height: 200px; 
 		color:#fff;
-		background-color: #000;
+		background-color: #fff;
 
 	}
 	.mainsection2{
@@ -174,7 +174,7 @@ background-color: #000;
 	.mainsection1{
 		background-size: 330px; height: 200px; 
 		color:#fff;
-		background-color: #000;
+		background-color: #fff;
 
 	}
 	.mainsection2{
@@ -191,7 +191,7 @@ background-color: #000;
 	padding-left: 20px;
 	padding-right: 20px;
 	text-align: center;
-	color:#5E5E5E;
+	color:#fff;
 	font-size: 18px;
 	width: 
 }
