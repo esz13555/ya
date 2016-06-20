@@ -46,6 +46,26 @@ background-color: #fff;
 	height:80px;
 	width: auto;
 }
+@media screen and (min-width: 2560px){
+	.mainsection{
+		background-size:2240px;
+		  height: 800px;
+
+	}
+		.mainsection1{
+		background-size: 2030px; 
+		height: 800px; 
+		color:#fff;
+		background-color: #000;
+
+	}
+	.mainsection2{
+		background-size: 2030px; 
+		height: 800px;
+	 	color:#fff;
+	 	background-color: #fff;
+	}
+}
 @media screen and (min-width: 1440px){
 	.mainsection{
 
