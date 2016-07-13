@@ -12,6 +12,29 @@ body, table, p, div, span, form, input, textarea, select, pre, button { font-fam
 ul li { list-style-type:none; }
 
 
+.table{ 
+  display:table; 
+} 
+.tr{ 
+  display:table-row; 
+  width:30em; 
+  height:2em; 
+} 
+.td{ 
+  display:table-cell; 
+  width:16.8em; 
+  height:0em; 
+  
+} 
+tr{ 
+  width:30em; 
+  height:2em; 
+} 
+td{ 
+  width:16.8em; 
+  height:0em; 
+} 
+
 
 body {
     width: 100%;
