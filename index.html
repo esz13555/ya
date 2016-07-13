@@ -28,6 +28,62 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 	<link href="css/index.css" rel="stylesheet">
+	<style>
+	.rwd-table {
+　background: #fff;
+　overflow: hidden;
+}
+.rwd-table tr:nth-of-type(2n){
+　background: #eee;
+}
+.rwd-table th, 
+.rwd-table td {
+　margin: 0.5em 1em;
+}
+.rwd-table {
+　min-width: 100%;
+}
+.rwd-table th {
+　display: none;
+}
+.rwd-table td {
+　display: block;
+}
+.rwd-table td:before {
+　content: attr(data-th) " : ";
+　font-weight: bold;
+　width: 6.5em;
+　display: inline-block;
+}
+.rwd-table th, .rwd-table td {
+　text-align: left;
+}
+.rwd-table th, .rwd-table td:before {
+　color: #D20B2A;
+　font-weight: bold;
+}
+@media (min-width: 480px) {
+.rwd-table td:before {
+　display: none;
+}
+.rwd-table th, .rwd-table td {
+　display: table-cell;
+　padding: 0.25em 0.5em;
+}
+.rwd-table th:first-child, 
+.rwd-table td:first-child {
+　padding-left: 0;
+}
+.rwd-table th:last-child, 
+.rwd-table td:last-child {
+　padding-right: 0;
+}
+.rwd-table th, 
+.rwd-table td {
+　padding: 1em !important;
+}
+}
+	</style>
 	
 </head>
 
@@ -43,7 +99,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <img class="navbar-brand" src="img/logo.png" alt="" width="150" height="40" />
+                <img class="navbar-brand" src="img/logo.png" alt="" width="150">
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -109,17 +165,12 @@
 <section class="mainsection">
   <div class="container" id="l1">
      
-    <div class="top_content">
-        <div class="row">
-          <div class="col-lg-12 col-sm-12">
-	
-          </div>
-         </div>
-    </div>
+    
+         
   </div>
 </section>
 
- <marquee direction="left" height="20" scrollamount="5"   behavior="scroll" >最新消息：<a style="color:#000" href="news/newsch01.pdf" target=_blank>論文摘要錄取公告...Read More</a></marquee>
+ <marquee direction="left" height="20" scrollamount="5"   behavior="scroll" >最新消息：<a style="color:#888" href="news/newsch01.pdf" target=_blank>論文摘要錄取公告...Read More</a></marquee>
 
 
 	<!-- Section: intro -->
@@ -132,6 +183,7 @@
 	
 		<div class="container">
 			<div  class="row">
+				<div class="wow fadeInDown" data-wow-delay="0.2s">
 				<div  class="col-sm-5 col-md-4">
 					
 						<div style="color:#fff;"  class="box text-center">
@@ -181,6 +233,7 @@
 				</div>
 			
 			</div>
+		</div>
 		</div>
 
 	</section>
